@@ -75,3 +75,10 @@ int main(){
     process(mat,mat_bomba);
     x_close();
 }
+
+/*
+    Implementar :
+        -Quando selecionar um espaco sem nenhuma bomba por perto deve-se fazer um floodfill pelos 8 cantos e contornar com area com bomba perto
+        -Opcoes para dizer onde q tem bomba ou selecionar um canto livre
+        -Ganha quando dizer as bombas nos lugares certos, se n, perde
+*/
