@@ -159,15 +159,11 @@ void _delete(List *list){ //estalo do thanos
 
 int main(){
     List *lista = create();
-    for(int i = 0; i < 10; i++){
-        if(i < 5)
-            pop_back(lista,2);
-        else
-            pop_back(lista,3);
-    }
+    for(int i = 0; i < 3; i++)
+        pop_back(lista,2);
     show(lista);
-    _remove_all_with_value(lista,2);
+    push_back(lista);
     show(lista);
     _delete(lista);
-    printf("Sexo Anal");
+    printf("deu certo");
 }
